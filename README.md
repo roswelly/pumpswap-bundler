@@ -1,95 +1,28 @@
 
-# Solana Raydium, Pump fun Bundler Volume Bot
+# 🚀 PumpSwap Trading Bot | Solana DEX Bot for Automated Trading
 
 ## Overview
-Solana Bundler Bot is an advanced automation tool designed to facilitate token creation, liquidity management, automated trading, and market-making strategies on the Solana blockchain. It integrates with Raydium DEX and includes features for sniping, anti-MEV protection, and multi-wallet distribution.
+Automate your trading on PumpSwap with a high-performance bot featuring copy trading, sniping, swapping, liquidity pool creation, and volume boosting. Built for Solana traders and memecoin hunters.
 
-https://github.com/user-attachments/assets/7083f641-2033-41f6-84f0-39b0ea961455
-
----
-
-https://github.com/user-attachments/assets/e4ac82e3-7b8a-4d25-9ae0-9793fc6c8fe6
-
----
-
-https://github.com/user-attachments/assets/6e86ee84-5b23-40be-98ff-1999bf636b67
 
 ## Features
+- Copy Trading – Automatically mirror top traders' transactions.
 
-### Authentication
-- Admin logs in via a predefined **Phantom wallet** address set in the backend.
-- Secure authentication ensures **only authorized admin access**.
+- Sniper Bot – Instantly buy newly listed tokens with custom slippage settings.
 
----
+- Bundler – Execute multiple trades in a single transaction to save fees.
 
-### Token Creation & Liquidity Management on Raydium
-- **Token Creation**: Admin can create a new token via the panel.
-- **Revoke Mint & Freeze Authorities**: Automatically removes mint and freeze authorities post-creation or via API call.
-- **Raydium Liquidity Pool Setup**: The bot creates a liquidity pool on **Raydium DEX** and ensures liquidity is added.
+- Swap – Fast and optimized token swapping on PumpSwap.
 
----
+- Liquidity Pool Creation – Deploy and manage LPs seamlessly.
 
-### Automated Token Purchase (Sniping)
-- A **backend scheduler** or event monitors Raydium for new token launches.
-- **Sniper Bot** executes buy orders instantly at launch.
-- **Multi-Wallet Execution**: Simultaneously places buy orders from different wallets.
+- Volume Bot – Generate volume on specific tokens for price movement strategies.
 
----
+## Tech Stack
+- Blockchain: Solana
 
-### Token Distribution (Automated)
-- Purchased tokens are distributed to **30 wallets**.
-- Distribution is randomized per wallet.
-- A small amount of **SOL** is sent to each wallet for future sell operations.
+- Smart Contracts: Rust, Anchor
 
----
+- Backend: Node.js, TypeScript
 
-### Market Maker & Anti-MEV Volume Bot
-- **Market Maker Bot** ensures continuous **buy/sell orders** to boost token volume and price.
-- **Anti-MEV Bot** prevents **front-running & sandwich attacks** by monitoring MEV transactions and applying protective measures.
-
----
-
-### Continuous Buy and Sell Automation
-- Admin configures **buy/sell settings**, including:
-  - Amount per order
-  - Time interval for trades
-  - Number of wallets
-- The bot **automatically places buy and sell orders** based on configured parameters.
-
----
-
-### Sell Operation
-- Tokens are sold from **multiple wallets simultaneously**.
-- The bot ensures **token dumping** at a specified price level.
-
----
-
-### Dashboard
-- Real-time monitoring of all backend operations, including:
-  - **Liquidity status**
-  - **Token distribution details**
-  - **Buy/sell transactions**
-  - **Sell operation progress**
-  - **Market Maker & Anti-MEV actions**
-
----
-
-### Error Handling and Logging
-- **Logs all errors** encountered during operations.
-- Ensures system stability and troubleshooting support.
-
----
-
-## Installation & Setup
-
-### Prerequisites
-- Node.js & npm
-- Solana CLI
-- Phantom Wallet
-
-### Clone the Repository
-```bash
-git clone https://github.com/cryptostar253614/Solana_Raydium_Pumpfun_Bundler_Volume_Bot.git
-cd Solana_Raydium_Pumpfun_Bundler_Volume_Bot
-```
-### Contact Address: [@cryptomonster0977](https://t.me/cryptomonster0977)
+- Bot Execution: WebSockets & Solana RPC
