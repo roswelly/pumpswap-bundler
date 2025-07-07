@@ -1,5 +1,5 @@
 
-# 🚀 PumpSwap Trading Bot | Solana DEX Bot for Automated Trading
+# 🚀 Pumpswap sniper Bot | PumpSap migration sniper | Pumpswap copy trading | Pumpswap volume 
 
 ## Overview
 Automate your trading on PumpSwap with a high-performance bot featuring copy trading, sniping, swapping, liquidity pool creation, and volume boosting. Built for Solana traders and memecoin hunters.
