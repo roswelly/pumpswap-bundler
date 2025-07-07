@@ -8,7 +8,7 @@ Automate your trading on PumpSwap with a high-performance bot featuring copy tra
 ## Features
 - Copy Trading – Automatically mirror top traders' transactions.
 
-- Sniper Bot – Instantly buy newly listed tokens with custom slippage settings.
+- Migration Sniper Bot – When token is migrated from pumpfun to pumpswap, instantly buy newly listed tokens with custom slippage settings.
 
 - Bundler – Execute multiple trades in a single transaction to save fees.
 
