@@ -26,3 +26,8 @@ Automate your trading on PumpSwap with a high-performance bot featuring copy tra
 - Backend: Node.js, TypeScript
 
 - Bot Execution: Solana gRPC & Solana RPC
+
+## Contact
+
+- [telegram](https://t.me/roswellecho)
+- [twitter](https://x.com/roswellecho)
