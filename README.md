@@ -1,5 +1,5 @@
 
-# 🚀 PumpSwap sniper Bot | PumpSwap migration sniper | PumpSwap copy trading | PumpSwap volume bot
+# 🚀 PumpSwap Bundler | PumpSwap migration sniper 
 
 ## Overview
 Automate your trading on PumpSwap with a high-performance bot featuring copy trading, sniping, swapping, liquidity pool creation, and volume boosting. Built for Solana traders and memecoin hunters.
